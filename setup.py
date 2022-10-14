@@ -20,12 +20,12 @@ setuptools.setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'pika >=0.9,<0.11',
+        'pika >=0.9',
     ],
     extras_require={
         'tests': [
-            'pytest >=2.5.2,<3',
-            'pytest-cov >=1.7,<2',
+            'pytest >=2.5.2',
+            'pytest-cov >=1.7',
         ],
     },
     classifiers=[
